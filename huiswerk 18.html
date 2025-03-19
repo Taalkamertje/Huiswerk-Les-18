@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Meow+Script&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Shadows+Into+Light&display=swap" 
+    rel="stylesheet">
+    <title>Huiswerk 18</title>
+    <style>
+        [class*="col-"] {
+            width: 100%;
+        }
+        @media only screen and (max-width: 600px) {
+            .row {display: flex;
+            flex-direction: column;
+        }
+            #links {width: 100%}
+            #links {background-color: rgb(231, 170, 220);}
+        }
+        @media only screen and (min-width: 600px) {
+            .row {display: flex;
+        }    
+        }
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  
+    .shadows-into-light-regular {
+        font-family: "Shadows Into Light", sans-serif;
+        font-style: normal;
+    }
+    #header {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        min-height: 175px;
+        background-image: url(utereg.png);
+        background-color:red;
+        background-size: 100%;
+        color:red;
+        font-family: "Shadows Into Light", sans-serif;
+        font-size:25pt;
+        align-items: center;    
+    }
+    #footer {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100px;
+        background-color: red;
+        font-family: 'Shadows Into Light', sans-serif;
+        font-size: 15pt;
+        color: white;
+        align-items: center;
+    }
+    .h2 {
+        font-family: "Shadows Into Light", sans-serif;
+        font-size: 20pt;
+        color: red;
+    }
+    #links {
+        margin-top: 0;
+        padding-right: 15px;
+        min-width: 16.66%;
+    }
+    ul li { 
+        padding-bottom: 20px;
+        font-family: 'Trebuchet MS', sans-serif;
+        font-size: 10pt;
+    }
+    #midden {
+        max-width: 100%;
+        background-color: antiquewhite;
+        padding: 0px 15px 15px 15px;
+    }   
+    .artikeltekst {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 11pt;
+    font-weight: 500;
+    display:block;
+    }
+    #blotkamp, #domunder {
+    max-width: 25%;
+    max-height: auto;
+    float: right;
+    border-radius: 6px;
+    margin-left: 15px;
+    }
+    #rechts {
+    position: relative;
+    top: 20px;
+    bottom: 30px;
+    width: 100%;
+    height: 100%;
+    background-color: blueviolet;
+    }
+    </style>
+</head>
+<body>
+<div id="content">
+<header id="header">
+    <h1>Utereg me staadje</h1>
+</header>
+<div class="row">
+    <div class="col-2">
+    <section id="links">
+        <h2 class="h2">Uteregse weetjes</h2>
+        <ul> 
+            <!--Ik wil die list-items niet zo ver naar links laten uitlijnen, maar hoe krijg ik dat voor elkaar? 
+            En dit hele segment blijft veel te smal op kleine schermen-->
+        <li>Op 2 juni 1122 gaf de Duitse keizer Hendrik V de Utrechters stadsrechten. 
+                Daarmee heeft Utrecht het op één na oudste stadsrecht van Nederland.
+            </li>
+            <li>De Domtoren van Utrecht is met 112,32 meter de hoogste kerktoren van Nederland. De toren maakte deel uit van de Sint-Maartenskathedraal, ook wel Domkerk genoemd, 
+                en werd tussen 1321 en 1382 gebouwd.
+            </li>
+            <li>Utrechters hebben een schandalig lekkere megabonbon: het ‘Domtorentje’. 
+                Pure chocolade met een chocoladevulling erin en de Domtoren in reliëf erop. Alleen te koop bij Blom in de Zadelstraat. 
+            </li>
+            <li>Utrecht heette in de Romeinse tijd (!) Trajectum ad Rhenum, wat "oversteekplaats aan de Rijn" betekent. 
+                Door de eeuwen heen veranderde de naam via "Ultraiectum" naar het huidige Utrecht.
+            </li>
+            <li>
+                De Universiteit Utrecht is een oudje! 
+                De opening vond plaats op 26 maart 1636. Hoewel die Dies Natalis geldt als geboortedag, 
+                stelde de stad Utrecht al in 1470 voor om een universiteit op te richten.
+            </li>    
+        </ul>
+    </section>
+        </div>
+    <div class="col-9">
+    <section id="midden">
+            <div class="artikel1">
+                <h2 class="h2">Centraal Museum</h2>
+                <img src="blotkamp.png" id="blotkamp" alt="fragment van een kunstwerk van blotkamp met blingbling">
+                <div class="artikeltekst">Het Centraal Museum is gelegen in de stad Utrecht. 
+                Het museum heeft een uitgebreide collectie oude en moderne kunst, mode, toegepaste kunst en ook het Nijntje Museum 
+                en het Rietveld Schröderhuis maken deel uit van het Centraal Museum. 
+            <br><br>
+                Nu te zien: Carel Blotkamp (Zeist, 1945) is schilder, maar gebruikt voornamelijk pailletten als materiaal. 
+                Hij gebruikt ze zoals een schilder zijn verf gebruikt: om kleur te geven, accenten te leggen of een sfeer te benadrukken. 
+                Met verschillende pailletten over elkaar mengt hij de kleuren, zo ontstaan organische vormen. Het weerkaatsende licht doet de rest.  
+            <br><br>
+                Ook te zien: Anna Aagaard Jensen - Welkom thuis, lieverd. In deze tentoonstelling onderzoekt de Deense ontwerper Anna Aagaard Jensen 
+                de representatie van vrouwen in de kunst en design. Met haar kritische blik op genderstereotypen daagt ze de bezoeker uit om na te denken 
+                over hoe vrouwen worden afgebeeld en welke rol deze beeldvorming speelt in onze maatschappij.
+            <br><br>
+                Anna Aagaard Jensen (1991) staat bekend om haar provocerende en uitdagende ontwerpen die gendernormen ter discussie stellen. 
+                In haar werk combineert ze verschillende materialen en technieken om objecten te creëren die zowel functioneel als conceptueel zijn. 
+                Voor deze tentoonstelling heeft ze een serie nieuwe werken gemaakt die specifiek ingaan op de representatie van vrouwen in de kunstgeschiedenis 
+                en hedendaagse visuele cultuur. De tentoonstelling omvat sculpturen, installaties en collages waarin Jensen speelt met traditionele vrouwelijke 
+                archetypes en deze herinterpreteert vanuit een feministisch perspectief. Door historische beelden te combineren met hedendaagse elementen creëert ze een dialoog tussen verleden en heden, 
+                en nodigt ze de bezoeker uit om kritisch na te denken over de manier waarop vrouwen worden gerepresenteerd in kunst en design.
+                <br><br>
+            </div>
+            </div>
+            <div class="artikel2">
+                <h2 class="h2">Dom Under</h2>
+                <img src="domunder.png" alt="publiek met zaklantaarn op speurtocht onder de Dom" id="domunder">
+                <div class="artikeltekst">Met een zaklamp in de hand verken je de archeologische schatten die diep onder de grond verborgen liggen. 
+                Ontdek de fundamenten van het Romeinse fort Traiectum, bewonder middeleeuwse restanten en ervaar meer dan 2000 jaar aan verborgen geschiedenis. 
+                Deze ondergrondse expeditie laat je de lagen van het verleden van Utrecht van dichtbij beleven.
+                <br><br>
+                Paleis Lofen voert je terug naar de middeleeuwen, naar de plek waar Utrecht stadsrechten ontving. 
+                Hoewel een brand in 1253 het paleis verwoestte, zijn de overblijfselen nog steeds te vinden in de kelders onder het Domplein en de Vismarkt. 
+                Tijdens de Tijdreis Paleis Lofen dwaal je door de restanten van dit keizerlijke paleis en beleef je middeleeuws Utrecht.
+                <br><br>
+                Wil je investeren in Utrechts erfgoed met maatschappelijk rendement? Stichting Ondergronds Domplein biedt de kans om via een obligatie bij te dragen aan de 
+                ontwikkeling van ‘De Onderdompelende Ervaring’ van de historische attractie. De obligatie van € 5.000 is een lening voor 5 jaar en daarvan wordt jaarlijks € 1.000 afgelost. 
+                Met de optie om dit ook jaarlijks te schenken met fiscaal voordeel. Over het openstaande bedrag wordt jaarlijks 1,5% rente uitgekeerd.
+                <br><br>
+                Wilt u helpen het verborgen keizerlijk Paleis Lofen verder tot leven te brengen? Neem contact op met directeur-bestuurder Tijn Pieren voor meer informatie en de mogelijkheden om deel te nemen.
+                </div>     
+    </section> <!--Deze en de /div hieronder stonden omgedraaid. Voordat ik erachter was dat was waarom ik mijn rechterkolom niet zag.... Zie ook opmerking hieronder-->
+</div>
+    <div class="col-1">
+    <section id="rechts">
+    </div>
+</div><!--Ik vind het zo onhandig dat je niet gemakkelijk kan zien bij welke div de aflsuiter hoort. Of kan dat wel?-->
+</div> 
+</div>
+<footer id="footer">Copyright: Uteregse Oudewijvenkoek 2025
+</footer>
+</body>
+</html>
